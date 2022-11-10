@@ -72,7 +72,7 @@ in
         });
         packageName = "com.google.android.gms";
         privileged = true;
-        privappPermissions = [ "FAKE_PACKAGE_SIGNATURE" "INSTALL_LOCATION_PROVIDER" "CHANGE_DEVICE_IDLE_TEMP_WHITELIST" "UPDATE_APP_OPS_STATS" ];
+        privappPermissions = [ "FAKE_PACKAGE_SIGNATURE" "INSTALL_LOCATION_PROVIDER" "CHANGE_DEVICE_IDLE_TEMP_WHITELIST" "UPDATE_APP_OPS_STATS" "MANAGE_USB" ];
         defaultPermissions = [ "FAKE_PACKAGE_SIGNATURE" ];
         usesLibraries = [ "com.android.location.provider" ];
         usesOptionalLibraries = [ "androidx.window.extensions" "androidx.window.sidecar" ];
